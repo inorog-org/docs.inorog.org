@@ -64,5 +64,5 @@ git merge
 git add 
 ```
 
-![Add](../../repo/Comenzi/Screenshot_16.png)
+![Add](../../repo/Comenzi/Screenshot_16.png) 
 
