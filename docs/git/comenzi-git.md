@@ -4,19 +4,28 @@ sidebar_position: 3
 
 # Comenzi uzuale git
 
-## Comanda clone. 
+## Comanda clone.
+
+Comanda `git clone` este folosita pentru a face o copie a unui proiect stocat pe un git repository. Pentru a face aceasta clonare avem nevoie de adresa repository-ului.
+
+Aceasta se poate gasi in sectiunea de **Code** din repository-ul dorit.
+
+![Clone](../../repo/Screenshot_17.png)
+
+De exemplu pentru a face o copie a proiectului **docs.inorog.org** folosim comanda:
 
 ```bash
 git clone https://github.com/inorog-org/docs.inorog.org.git
 ```
+![Clone 1](../../repo/Comenzi/Screenshot_18.png)
+
+Dupa clonarea reusita a proiectului, vom avea un folder nou cu numele proiectului. Putem ajunde in acesta cu `cd nume-proiect` in exemplu nostru `cd docs.inorog.org`
+
 
 :::tip De retinut
- Comanda git clone este folosită pentru a transfera codul de pe repository în calculatorul tău, castfel încât să se poată face modificări programului.
+ Comanda `git clone` este folosită doar la inceputul lucrului la proiect sau in cazurile in care vrem sa clonam proiectul in alte locatii.
 :::
 
-![Clone](../../repo/Screenshot_17.png)
-
-![Clone 1](../../repo/Comenzi/Screenshot_18.png)
 
 
 ## Comanda status
@@ -34,7 +43,7 @@ Comanda status îți arată ce modificări s-au făcut în editorul tău de cod 
 ## Comanda pull
 
 ```bash
-git pull 
+git pull
 ```
 
 :::tip De retinut
@@ -58,7 +67,7 @@ Comanda git commit menține progresul pe care l-am obținut în cadrul unui proi
 
 ```bash
 git push
-``` 
+```
 
 :::tip De retinut
 Comanda git push este folosită pentru a încărca conținutul salvat de pe versiunea locală pe versiunea unui repository cu variantă mai veche.
@@ -73,7 +82,7 @@ git fetch
 ```
 
 :::tip De retinut
-Comanda git fetch este folosită pentru a instala tot conținutul de pe o variantă veche a unui repository. 
+Comanda git fetch este folosită pentru a instala tot conținutul de pe o variantă veche a unui repository.
 :::
 
 ![Fetch](../../repo/Comenzi/Screenshot_14.png)
@@ -93,10 +102,10 @@ Comanda git merge îmbină toate modificarile de pe toate branch-urile.
 ## Comanda add
 
 ```bash
-git add 
+git add
 ```
 :::tip De retinut
 Comanda git add este comanda ce actualizează modificările din editorul de cod în git.
 :::
 
-![Add](../../repo/Comenzi/Screenshot_16.png) 
+![Add](../../repo/Comenzi/Screenshot_16.png)
