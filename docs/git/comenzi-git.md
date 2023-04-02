@@ -75,7 +75,7 @@ Comanda status îți arată ce modificări s-au făcut în editorul tău de cod 
 git pull
 ```
 
-Comanda `git pull` este o comandă care este formată din `git fetch`+`git merge`. Această comandă transferă  din principalul repository al proiectului în repository-ul contributorului în cazul în care versiunea sa locală nu coincide cu versiunea oficială a proiectului. Există două șcenarii
+Comanda `git pull` este o comandă care este formată din `git fetch`+`git merge`. Această comandă transferă  din principalul repository al proiectului în spațiul de lucru al contributorului (editorul de cod) în cazul în care versiunea sa locală nu coincide cu versiunea oficială a proiectului. Există două șcenarii
 
 **Șcenariul 1**
 
@@ -159,6 +159,11 @@ Comanda git push este folosită pentru a încărca conținutul salvat de pe vers
 ```bash
 git fetch
 ```
+
+Comanda `git fetch` transferă datele de pe repository-ul proiectului pe repository-ul unui colaborator. Această comandă este doar o etapă din comanda discutată anterior `git pull`. De asemenea `git fetch` poate identifica noile branch-uri formate.
+
+
+
 
 :::tip De retinut
 Comanda git fetch este folosită pentru a instala tot conținutul de pe o variantă veche a unui repository.
