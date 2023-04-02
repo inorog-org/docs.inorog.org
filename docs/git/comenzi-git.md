@@ -117,7 +117,26 @@ Comanda `git commit -m "..."` aduce modificări din laptopul colaboratorului în
 
 ![Commit](../../repo/Comenziuzualegit/Screenshot_24.png)
 
+
 În această imagine se poate vedea că s-a făcut commit-ul cu mesaj. De asemena ne arată că fișierul a migrat în baza lui de date.
+
+Există două șcenarii
+
+**Șcenariul 1**
+
+*Comanda s-a realizat anterior și modificările trebuie trimise pe remote repository prin comanda `git push` *.
+
+![Commit1](../../repo/Comenziuzualegit/Screenshot_32.png)
+
+În această imagine putem vedea că branch-ul nostru are deja făcut un commit. Pentru a continua să trimit modificările pe remote repository trebuie făcută comanda `git push`.
+
+**Șcenariul 2**
+
+*Comanda **nu** s-a realizat anterior și modificările trebuie făcute*.
+
+![Commit1](../../repo/Comenziuzualegit/Screenshot_33.png)
+
+În această imagine,putem observa că modificările s-au făcut. Acest lucru se poate observa prin sintagma *1 file changed*.
 
 :::tip De retinut
 Comanda git commit aduce modificări de pe laptopul unei persoane în baza locală de data a acesteia.
@@ -162,14 +181,32 @@ git fetch
 
 Comanda `git fetch` transferă datele de pe repository-ul proiectului pe repository-ul unui colaborator. Această comandă este doar o etapă din comanda discutată anterior `git pull`. De asemenea `git fetch` poate identifica noile branch-uri formate.
 
+![Fetch-1](../../repo/Comenziuzualegit/Screenshot_29.png)
 
+Există două șcenarii:
+
+**Șcenariul 1**
+
+*Comanda s-a realizat anterior și nu are ce să actualizeze*.
+
+![Fetch](../../repo/Comenziuzualegit/Screenshot_14.png)
+
+În momentul în care `git fetch` nu afișează niciun mesaj înseamnă că modificările au fost deja făcute.
+
+**Șcenariul 2**
+
+*Comanda `git fetch` sau alte comenzi care o includ pe aceasta (`git pull`) **nu** s-a realizat  și proiectul  **trebuie** să se actualizeze*.
+
+![Fetch1](../../repo/Comenziuzualegit/Screenshot_30.png)
+
+În această imagine, se observă cum se tarnsferă de pe remote repository (folderul proiectului) pe cel al lucrătorului. 
 
 
 :::tip De retinut
-Comanda git fetch este folosită pentru a instala tot conținutul de pe o variantă veche a unui repository.
+Comanda git fetch *mută* elementele de pe un **remote repository** pe un **local repository** (folderul muncitorului) .
 :::
 
-![Fetch](../../repo/Comenziuzualegit/Screenshot_14.png)
+
 
 ## Comanda merge
 
@@ -177,19 +214,47 @@ Comanda git fetch este folosită pentru a instala tot conținutul de pe o varian
 git merge
 ```
 
-:::tip De retinut
-Comanda git merge îmbină toate modificarile de pe toate branch-urile.
-:::
+Comanda `git merge` transferă de pe un branch/branch-uri pe  altul fișiere care vor intra în posesia celui ce controleaza branch-ul respectiv. Acesta are două șcenarii:
+
+**Șcenariul 1**
+
+*Comanda s-a realizat anterior și branch-ul nu are ce să actualizeze*.
 
 ![Merge](../../repo/Comenziuzualegit/Screenshot_15.png)
+
+În această imagine putem vedea că branch-ul pe care suntem are o variantă finală care este deja actulizată anterior. Acest lucru se evidențiază prin mesajul *Everything is up to date*.
+
+**Șcenariul 2**
+
+*Comanda **nu** s-a realizat  și branch-ul/branch-urile **trebuie** să se actualizeze*.
+
+![Merge1](../../repo/Comenziuzualegit/Screenshot_34.png)
+
+În această imagine se poate observa că branch-urile  din poză vor fi unite într-o singură versiune pe branch-ul pe care ai făcut `git merge`.
+
+:::tip De retinut
+Comanda `git merge` îmbină toate modificarile de pe toate branch-urile și sunt salvate în un singur branch.
+:::
+
+
 
 ## Comanda add
 
 ```bash
 git add
 ```
+Comanda `git add` este folosită pentru a salva fiecare modificare din comanda `git status` ,pentru a se salva în repository-ul local prin comanda `git commit`. Practic această comandă este etapa intermediară dintre `git status` și `git commit`,unde sunt salvate toate folderele modificate.
+
+![Add](../../repo/Comenziuzualegit/Screenshot_31.png)
+
+În această imagine se poate observa ce am spus mai sus, de asemenea cum se actualizează modificările și care este rolul lui `git add` în realizarea commitului.
+
 :::tip De retinut
-Comanda git add este comanda ce actualizează modificările din editorul de cod în git.
+Comanda `git add` este comanda ce actualizează modificările din editorul de cod în baza de date locală.
 :::
 
-![Add](../../repo/Comenziuzualegit/Screenshot_16.png)
+
+Acestea sunt principalele comenzi care sunt utilizate în git.
+![Bestial](../../repo/Comenziuzualegit/image%20git.jpg)
+
+link :https://www.ntu.edu.sg/
