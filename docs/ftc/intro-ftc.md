@@ -15,6 +15,7 @@ FTC-First Tech Challenge este o competiție sportivă specifică claselor 7-12 c
 Link:https://natieprineducatie.ro/vision/
 
 ## Istoric
+
 FTC a apărut în cadrul concursului existent FIRST Robotics Competition și din platforma IFI Robovation.RadioShack și Innovation First au colaborat pentru a creea o versiune mai bună a IFI Robovation.Acesta a fost actualizat și redenumit VEX Robotics Design System.
 Primul sezon al acestei competiții s-a desfășurat în 2005-2006, unde au debutat 130 de echipe. Ele au fost împărțite în 6 turnee regionale, tema având numele de FIRST Frenzy: Rising the Bar.În turneul final din aprilie 2006 din cadrul FTC Championship au participat 50 de echipe.
 În vara anului 2007, numele competiției s-a schimbat din FTC VEX Challenge în First Tech Challenge.
