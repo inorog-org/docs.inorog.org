@@ -7,13 +7,13 @@ sidebar_position: 1
 
 Java este un limbaj programare orientat pe obiect. Acest limbaj de programare este dezvoltat de către James Gosling de la compania Sun Microsystems(acum filială Oracle). Majoritatea dintre aplicațiile moderne sunt scrise în limbajul Java deoarece este folosit pe mai multe sisteme și de asemenea noile evoluții tehnologice permit utilizarea sa. Acest limbaj programe oferă o platformă unică , la nivelului programtorlui și un mediu eterogen și diversificat. Cu ajutorul acestuia sunt create aplicații complexe pentru programarea aplicațiolor destinate intranet-urilor.  De asemenea este asemănător cu limbajele C și C++ , fiind un avantaj pentru persoanele care cunosc acest limbaj de programare. Pentru ca acest limbaj de programare să funcționeze pe dispozitivul dumneavoastră trebuie să vă instalați o mașină virtuală intitulată JVM ( Java Virtual Machine ). Această mașină virtuală este mediul în care codul dumneavoastră rulează în cazul în care nu are erori de compilare. Platformele unde puteți instala JVM sunt : Oracle,IBM,Bea,FSF.
 
-![Java1](../../repo/Java/Java_programming_language_logo.svg-min%20(1)%20(1)%20(1)%20(1)%20(1)%20(1)%20(1)%20(1)%20(1)%20(1).png)
+![Java1](../../repo/Java/introjava/Java_programming_language_logo.svg-min%20(1)%20(1)%20(1)%20(1)%20(1)%20(1)%20(1)%20(1)%20(1)%20(1).png)
 
-![Java2](../../repo/Java/Oracle_logo.png)
+![Java2](../../repo/Java/introjava/Oracle_logo.png)
 
-![Java3](../../repo/Java/IBM_logo.svg.png)
+![Java3](../../repo/Java/introjava/IBM_logo.svg.png)
 
-![Java4](../../repo/Java/Free_Software_Foundation_logo_and_wordmark.svg.png)
+![Java4](../../repo/Java/introjava/Free_Software_Foundation_logo_and_wordmark.svg.png)
 
 ## Istoric Java
 
@@ -27,15 +27,15 @@ Principiile fundamenatle în creerea limbajelor de progrmare Java sunt:
 4. Trebuie să fie executat cu o performanță înaltă.
 5. Trebuie să fie interpretat, cuplat și dinamic.
 
-![Java5](../../repo/Java/1200px-James_Gosling_2008.jpg)
+![Java5](../../repo/Java/introjava/1200px-James_Gosling_2008.jpg)
 
 **James Gosling**
 
-![Java6](../../repo/Java/mikesheridan.jpg)
+![Java6](../../repo/Java/introjava/mikesheridan.jpg)
 
 ** Mike Sheridan**
 
-![Java7](../../repo/Java/1516253156746.jpg)
+![Java7](../../repo/Java/introjava/1516253156746.jpg)
 
 ** Patrick Naughton**
 
@@ -47,7 +47,7 @@ Java rezolva problema referior la cablurile de televiziune și de aceea a apăru
 Java este un limbaj de programare orientat pe obiect folosit în creere de aplicații pe toate dispozitivele.
 :::
 
-![Java8](../../repo/Java/ST-java1_1x%20(3)_3.png)
+![Java8](../../repo/Java/introjava/ST-java1_1x%20(3)_3.png)
 
 Link-uri: https://en.wikipedia.org/wiki/Java_(programming_language)#Documentation /
           https://ro.wikipedia.org/wiki/Oracle  /
