@@ -10,6 +10,8 @@ Sintaxa din java cuprinde :
 
 **2.**.**Metode**(*punctul de plecare*)
 
+Vom discuta in mare despre acestea,pentru a înțelege ce se întâmplă în program. Vom discuta ulterior în detaliu ce se întâmplă în fiecare parte.
+
 ![Sintaxa1](../../repo/Java/Sintaxa/Screenshot_2.png)
 
 ## 1.Clasa
