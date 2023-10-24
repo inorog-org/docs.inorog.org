@@ -94,12 +94,12 @@ Variabilele de tip primitiv sunt: String,int,float,double,char,boolean,long.
 
 
 ```java title="flotant.java"
-    public class Clase {
+public class Clase {
   public static void main(String[] args) {
    
-     float x=54,55;
-     float y=-54,55 //Acesta este un exemplu pentru tipul float 
-     //Restul............
+    float x=54,55;
+    float y=-54,55 //Acesta este un exemplu pentru tipul float 
+    // Restul............
   }
 }
 ```
