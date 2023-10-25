@@ -124,7 +124,63 @@ Tipurile de date de tip referință arată o adresă de memorie către o valoare
 
 ### Vectori
 
+Un vector este un obiect container care deține un număr valori de un singur tip,lungimea acestuia fiind stabilt atucni cand acesta este declarat.
+
+![Tipuri de date 1](../../repo/Java/TipuriDeDate/Screenshot_2.png)
+
+
+```java title="clase.java"
+public class Clase {
+  public static void main(String[] args) {
+   String[] animals ={"Dog","Cat"}
+  }
+}
+```
+Mai multe informații sunt la lecția despre Vectori.
 ### Clase 
 
+O recapitulare la ceea ce am făcut în prima lecție despre clase.
+
+**Clasele** reprezinta modalitatea prin care sunt adaugate *date noi* . *Fiecare* linie de cod/date noi ce este scrisa in Java, **TREBUIE** sa fie in interiorul unei clase. In exemplul nostru clasa se numeste - **Clase** - . Fiecare clasa se scrie cu litera **MARE**.
+
+:::tip1 De retinut
+**"Clase"** si **"clase"** au un inteles diferit in Java !!!!!
+:::
+
+:::tip2 De retinut
+Numele fisierului java **TREBUIE** sa coincida cu numele clasei. 
+:::
+
+:::tip3 De retinut
+Fisierul **trebuie** salvat folosind **numele_clasei** + **".java"**.
+:::
+
+Despre clase vom discuta mai multe la lecția despre Clase.
+
+![Tipuri de date 2](../../repo/Java/TipuriDeDate/heeloworld.jpg)
+
+```java title="clase.java"
+public class Clase {
+  public static void main(String[] args) {
+    System.out.println("Aceasta este o clasa");
+  }
+}
+```
+
 ### Interfețe
+
+Interfețele reprezintă o clasă abstractă.
+
+![Tipuri de date 3](../../repo/Java/TipuriDeDate/Screenshot_1.png)
+
+```java title="clase.java"
+interface Cars {
+  public void carsSound();
+  public void listen();
+}
+```
+
+Despre interfețe vom discuta mai multe la lecția despre Interfețe.
+
+
 
