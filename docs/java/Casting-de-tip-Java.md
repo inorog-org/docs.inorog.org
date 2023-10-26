@@ -6,25 +6,25 @@ sidebar_position: 8
 
 Vom discuta despre
 
-+ Casting de tip Java
++ ***Casting*** de tip Java
 
-  + Lărgirea turnării
+  + **Lărgirea turnării**
 
-  + Îngustarea turnării
+  + **Îngustarea turnării**
 
 Casting reprezintă atribuire unei valori de tip primitiv altui tip.
 
-Castingul este de două feluri 
+***Castingul*** este de două feluri 
 
-  + Lărgirea turnării
+  + **Lărgirea turnării**
 
-  + Îngustarea turnării
+  + **Îngustarea turnării**
 
 ## Lărgirea turnării
 
- Lărgirea tunării se face la trecerea a unui tip de date mai mic la un tip de date mai mare.
+ ***Lărgirea tunării*** se face la ***trecerea*** a unui tip de date mai **mic** la un tip de date mai **mare**.
 
-```java title="clase.java"
+```java title="CastingLărgire.java"
 public class Main {
   public static void main(String[] args) {
     int intMe = 5;
@@ -38,9 +38,9 @@ public class Main {
 
   ## Îngustarea turnării
 
- Îngustarea tunării se face la trecerea a unui tip de date mai mare la un tip de date mai mic. Aceasta trebuie făcută manual ,tipul de date fiind scris în paranteze rotunde în fața valorii.
+ ***Îngustarea tunării*** se face la trecerea a unui tip de date mai **mare** la un tip de date mai **mic**. Aceasta trebuie făcută **manual** ,tipul de date fiind scris între **paranteze** rotunde în fața valorii.
 
- ```java title="clase.java"
+ ```java title="CastingIngustare.java"
 public class Main {
   public static void main(String[] args) {
     double doubleMe = 5.99d;
