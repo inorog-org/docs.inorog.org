@@ -21,6 +21,6 @@ public class Main {
 }
 ```
 
-:::tip Observație
-După fiecare instrucțiune din program se pune ***;***
+:::tip ***Observație***
+***După*** fiecare ***instrucțiune*** din **program** se pune ***;***
 :::
