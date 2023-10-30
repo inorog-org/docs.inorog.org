@@ -53,6 +53,16 @@ Inca un operator
 
 ## Operatori de COMPARARE
 
+| Operator    |    Nume           |             Descriere                    |        Exemplu       | 
+| ----------- | -----------       | --------------------------------------   | -------------------  |
+|     ==      | Egal cu           | Verifică dacă două valori sunt egale     |         x == y        |
+|     !=      | Diferit de        | Verifică dacă două valori sunt diferite  |         x != y        |
+|     >       | Mai mare decât    | Verifică dacă o valoare e mai mare strict decat cealaltă                  |         x > y        |
+|     <       | Mai mic decât     | Verifică dacă o valoare e mai mică strict decat cealaltă                       |         x < y        |
+|     >=      | Mai mare sau egal | Verifică dacă o valoare e mai mare sau egală decat cealaltă   |        x >= y        |
+|     <=      | Mai mic sau egal  | Verifică dacă o valoare e mai mică sau egală decat cealaltă         |   x <= y       |
+
+
 ## Operatori LOGICI
 
 ## Operatori pe BIȚI
