@@ -65,6 +65,13 @@ Inca un operator
 
 ## Operatori LOGICI
 
+| Operator    |    Nume           |             Descriere                                |        Exemplu       | 
+| ----------- | -----------       | --------------------------------------               | -------------------  |
+|     &&      | Și                | Afișează adevărat verificând dacă sunt adevărate     |   x>6 && y<7         |
+|     !       | Negație           |  Neghează rezultatul și afișează adevărat verificând dacă sunt false    |   !(x>6 && y<7)          |
+
+Încă un operator
+ || (Sau)  - Afișează adevărat verificând dacă una este adevărată .Un exemplu: x>6 ||  y<7
 ## Operatori pe BIȚI
 
 ## Operatori RELAȚIONARI
