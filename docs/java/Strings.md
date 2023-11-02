@@ -16,7 +16,7 @@ sidebar_position: 11
 
   }
 }
-
+```
 ## Concatenare
 
 ## Caractere speciale
