@@ -4,7 +4,9 @@ sidebar_position: 11
 
 # Strings (Șiruri de caractere)
 
-## Șiruri de caractere-Exemplu
+## Șiruri de caractere
+
+### Sirul de caractere-Exemplu
 
 Șirul de caractere (String) este o variabilă care conține caractere care se află între niște " "- ghilimele duble
 
@@ -17,6 +19,13 @@ sidebar_position: 11
   }
 }
 ```
+
+## Lungimea caracterului
+
+
+
+## Mai multe metode ale sirului de caractere
+
 ## Concatenare
 
 ## Caractere speciale
